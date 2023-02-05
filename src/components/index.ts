@@ -1,3 +1,2 @@
-export type { IHelloWorld } from './HelloWorld/HelloWorld'
-export { HelloWorld } from './HelloWorld/HelloWorld'
-import './styles.css'
+export type { IButton } from './Button/Button'
+export { Button } from './Button/Button'
