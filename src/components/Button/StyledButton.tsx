@@ -7,10 +7,14 @@ interface IButton extends ButtonProps {
   variant?: 'contained' | 'outlined' | 'text'
 }
 
-const MUIButton = styled(Button)<IButton>``
+const MUIButton = styled(Button)<IButton>`
+  border: 2;
+  border-radius: 2;
+  height: 72px;
+`
 
 export const StyledButton: React.FC<IButton> = ({ format, variant, children }) => (
-  <MUIButton color={format} variant={variant}>
+  <Button color={format} variant={variant}>
     {children}
-  </MUIButton>
+  </Button>
 )
