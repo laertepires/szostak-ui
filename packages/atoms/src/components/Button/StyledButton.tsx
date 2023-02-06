@@ -14,7 +14,7 @@ const MUIButton = styled(Button)<IButton>`
 `
 
 export const StyledButton: React.FC<IButton> = ({ format, variant, children }) => (
-  <Button color={format} variant={variant}>
+  <MUIButton color={format} variant={variant}>
     {children}
-  </Button>
+  </MUIButton>
 )
