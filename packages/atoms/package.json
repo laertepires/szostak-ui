@@ -31,30 +31,30 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hooks": "^1.0.1",
+    "rollup": "^3.14.0",
+    "rollup-plugin-gzip": "^3.1.0",
     "typescript": "^4.9.3",
+    "util": "^0.12.5",
     "vite": "^4.1.0",
     "vite-plugin-dts": "^1.4.1",
     "vite-plugin-linter": "^1.2.0",
     "vite-tsconfig-paths": "^3.5.0",
-    "webpack": "^5.75.0"
+    "webpack": "^5.75.0",
+    "zlib": "^1.0.5"
   },
   "files": [
-    "dist"
+    "dist/*"
   ],
   "exports": {
     ".": {
-      "import": "./dist/szostak-ui-module.es.js"
+      "import": "./dist/components/module/szostak-ui-module.es.js",
+      "require": "./dist/components/module/szostak-ui-module.cjs.js"
     },
     "./button": {
-      "import": "./dist/szostak-ui-button.es.js"
-    },
-    "./button2": {
-      "import": "./dist/szostak-ui-button2.es.js"
+      "import": "./dist/components/button/szostak-ui-button.es.js",
+      "require": "./dist/components/button/szostak-ui-button.cjs.js"
     }
   },
-  "main": "./dist/szostak-ui.umd.js",
-  "module": "./dist/szostak-ui.es.js",
-  "types": "./dist/index.d.ts",
   "keywords": [],
   "author": "Fabio Szostak",
   "bugs": {

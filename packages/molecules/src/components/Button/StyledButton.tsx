@@ -2,7 +2,7 @@ import Button, { ButtonProps } from '@mui/material/Button'
 import { styled } from '@mui/system'
 import React from 'react'
 
-export interface IButton extends ButtonProps {
+interface IButton extends ButtonProps {
   format?: 'primary' | 'secondary'
   variant?: 'contained' | 'outlined' | 'text'
 }
