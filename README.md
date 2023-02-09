@@ -1,3 +1,3 @@
-# Vite + Typescript + NPMJS module
+# Vite + React + Typescript + MUI 5 + NPMJS modules
 
-_EXPERIMENTAL_
+_WORK IN PROGRESS_
