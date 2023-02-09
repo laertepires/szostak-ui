@@ -1,7 +1,7 @@
 {
   "name": "szostak-molecules",
   "private": false,
-  "version": "0.0.53",
+  "version": "0.0.54",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -57,5 +57,5 @@
   },
   "homepage": "https://github.com/fszostak/szostak-ui#readme",
   "license": "MIT",
-  "gitHead": "bd99982e98033692f9525df94bd8c482000e62d5"
+  "gitHead": "e6954d94ff5dbc67df3089ae23c10d01b821623e"
 }
