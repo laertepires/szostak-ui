@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
-import { Button } from 'szostak-atoms'
+import { Button } from 'szostak-atoms/button'
+import { Stack } from 'szostak-atoms/stack'
 // import { Button } from 'szostak-atoms'
 
 function App() {
@@ -9,7 +10,6 @@ function App() {
 
   return (
     <div className="App">
-      <Button />
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src="/vite.svg" className="logo" alt="Vite logo" />
@@ -33,6 +33,16 @@ function App() {
         </p>
       </div>
       <p className="read-the-docs">Click on the Vite and React logos to learn more</p>
+      <Stack direction="column">
+        <Button>Btn1</Button>
+        <Button>Btn2</Button>
+        <Button>Btn3</Button>
+      </Stack>
+      <Stack direction="row-reverse">
+        <Button>Btn1</Button>
+        <Button>Btn2</Button>
+        <Button>Btn3</Button>
+      </Stack>
     </div>
   )
 }
