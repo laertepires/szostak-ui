@@ -4,9 +4,8 @@
   "version": "0.0.55",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+    "dev": "vite build --watch",
+    "build": "tsc && vite build"
   },
   "dependencies": {
     "@emotion/react": "^11.10.5",
@@ -53,6 +52,10 @@
     "./button": {
       "import": "./dist/components/button/szostak-ui-button.es.js",
       "require": "./dist/components/button/szostak-ui-button.cjs.js"
+    },
+    "./stack": {
+      "import": "./dist/components/stack/szostak-ui-stack.es.js",
+      "require": "./dist/components/stack/szostak-ui-stack.cjs.js"
     }
   },
   "keywords": [],

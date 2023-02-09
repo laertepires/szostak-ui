@@ -4,9 +4,8 @@
   "version": "0.0.55",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+    "dev": "vite build --watch",
+    "build": "tsc && vite build"
   },
   "dependencies": {
     "@emotion/react": "^11.10.5",
@@ -43,17 +42,18 @@
     "zlib": "^1.0.5"
   },
   "files": [
-    "dist"
+    "dist/*"
   ],
   "exports": {
     ".": {
-      "import": "./dist/szostak-ui.es.js",
-      "require": "./dist/szostak-ui.umd.js"
+      "import": "./dist/components/module/szostak-ui-module.es.js",
+      "require": "./dist/components/module/szostak-ui-module.cjs.js"
+    },
+    "./button": {
+      "import": "./dist/components/button/szostak-ui-button.es.js",
+      "require": "./dist/components/button/szostak-ui-button.cjs.js"
     }
   },
-  "main": "./dist/szostak-ui.umd.js",
-  "module": "./dist/szostak-ui.es.js",
-  "types": "./dist/index.d.ts",
   "keywords": [],
   "author": "Fabio Szostak",
   "bugs": {

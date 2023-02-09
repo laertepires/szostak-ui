@@ -2,6 +2,8 @@
   "name": "szostak-ui",
   "private": true,
   "scripts": {
+    "dev": "lerna run dev",
+    "build": "lerna run build",
     "lint": "eslint 'packages/**/*.{js,jsx,ts,tsx}'",
     "lint:fix": "eslint --fix 'packages/**/*.{jsx,ts,tsx}'",
     "format": "prettier --write packages//**/*.{ts,tsx,css} --config ./.prettierrc",

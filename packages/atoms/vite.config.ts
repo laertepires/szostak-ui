@@ -37,6 +37,7 @@ export default defineConfig((configEnv) => ({
       entry: {
         module: 'src/components/index.ts',
         button: 'src/components/Button/index.ts',
+        stack: 'src/components/Stack/index.ts',
       },
       name: 'szostak-ui',
       formats: ['es', 'cjs'],
