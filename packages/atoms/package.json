@@ -1,7 +1,7 @@
 {
   "name": "szostak-atoms",
   "private": false,
-  "version": "0.0.62",
+  "version": "0.0.63",
   "type": "module",
   "scripts": {
     "dev": "vite build --watch",
@@ -46,9 +46,18 @@
     "dist/*"
   ],
   "exports": {
-    ".": "./dist/components/module/szostak-ui-module.cjs.js",
-    "./button": "./dist/components/button/szostak-ui-button.cjs.js",
-    "./stack": "./dist/components/stack/szostak-ui-stack.cjs.js"
+    ".": {
+      "import": "./dist/components/module/szostak-ui-module.esm.js",
+      "require": "./dist/components/module/szostak-ui-module.cjs.js"
+    },
+    "./button": {
+      "import": "./dist/components/button/szostak-ui-button.esm.js",
+      "require": "./dist/components/button/szostak-ui-button.cjs.js"
+    },
+    "./stack": {
+      "import": "./dist/components/stack/szostak-ui-stack.esm.js",
+      "require": "./dist/components/stack/szostak-ui-stack.cjs.js"
+    }
   },
   "keywords": [],
   "author": "Fabio Szostak",
