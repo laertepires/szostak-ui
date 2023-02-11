@@ -1,7 +1,7 @@
 {
   "name": "szostak-atoms",
   "private": false,
-  "version": "0.0.69",
+  "version": "0.0.70",
   "type": "module",
   "scripts": {
     "dev": "vite build --watch",
@@ -45,16 +45,16 @@
   ],
   "exports": {
     ".": {
-      "import": "./dist/components/module/szostak-ui-module.es.js",
-      "require": "./dist/components/module/szostak-ui-module.cjs.js"
+      "import": "./dist/szostak-ui-module.esm.js",
+      "require": "./dist/szostak-ui-module.cjs.js"
     },
     "./button": {
-      "import": "./dist/components/button/szostak-ui-button.es.js",
-      "require": "./dist/components/button/szostak-ui-button.cjs.js"
+      "import": "./dist/szostak-ui-button.esm.js",
+      "require": "./dist/szostak-ui-button.cjs.js"
     },
     "./stack": {
-      "import": "./dist/components/stack/szostak-ui-stack.es.js",
-      "require": "./dist/components/stack/szostak-ui-stack.cjs.js"
+      "import": "./dist/szostak-ui-stack.esm.js",
+      "require": "./dist/szostak-ui-stack.cjs.js"
     }
   },
   "keywords": [],
