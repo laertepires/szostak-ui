@@ -40,8 +40,8 @@ export default defineConfig((configEnv) => ({
         stack: 'src/components/Stack/index.ts',
       },
       name: 'szostak-ui',
-      formats: ['es', 'cjs'],
-      fileName: (format, name) => `components/${name}/szostak-ui-${name}.${format}.js`,
+      formats: ['esm', 'cjs'],
+      fileName: (format, name) => `szostak-ui-${name}.${format}.js`,
     },
     rollupOptions: {
       external: [...Object.keys(packageJson.peerDependencies)],
