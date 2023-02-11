@@ -45,15 +45,15 @@
   ],
   "exports": {
     ".": {
-      "import": "./dist/components/module/szostak-ui-module.esm.js",
+      "import": "./dist/components/module/szostak-ui-module.es.js",
       "require": "./dist/components/module/szostak-ui-module.cjs.js"
     },
     "./button": {
-      "import": "./dist/components/button/szostak-ui-button.esm.js",
+      "import": "./dist/components/button/szostak-ui-button.es.js",
       "require": "./dist/components/button/szostak-ui-button.cjs.js"
     },
     "./stack": {
-      "import": "./dist/components/stack/szostak-ui-stack.esm.js",
+      "import": "./dist/components/stack/szostak-ui-stack.es.js",
       "require": "./dist/components/stack/szostak-ui-stack.cjs.js"
     }
   },
