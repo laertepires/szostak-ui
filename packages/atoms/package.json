@@ -1,7 +1,7 @@
 {
   "name": "szostak-atoms",
   "private": false,
-  "version": "0.0.71",
+  "version": "0.0.72",
   "type": "module",
   "scripts": {
     "dev": "vite build --watch",
@@ -64,5 +64,5 @@
   },
   "homepage": "https://github.com/fszostak/szostak-ui#readme",
   "license": "MIT",
-  "gitHead": "68a3023a65ffcd18497cf044f51f3f3dd70cf0df"
+  "gitHead": "bb71eaacb934b3d71b3e8e1799c33e78ac45d4fc"
 }
